@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hero-slides",
+      "handler": "hero-slides.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hero-slides/count",
+      "handler": "hero-slides.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hero-slides/:id",
+      "handler": "hero-slides.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hero-slides",
+      "handler": "hero-slides.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hero-slides/:id",
+      "handler": "hero-slides.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hero-slides/:id",
+      "handler": "hero-slides.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
